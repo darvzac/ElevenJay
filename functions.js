@@ -6,7 +6,7 @@ const botInvRegex = /(https?:\/\/)?(www\.|canary\.|ptb\.)?discord(app)\.com\/(ap
 
 module.exports = {
   getMember(message, toFind = '') {
-    toFind = toFind.toLowerCase();
+    toFind = toFind.toLowerCase();jhbb;nnkkkk
 
     var target = message.guild.members.cache.get(toFind);
 
