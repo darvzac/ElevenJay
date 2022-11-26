@@ -149,7 +149,7 @@ if(!message.guild) return;
 // Set the bot's online/idle/dnd/invisible status
 client.on("ready", () => {
     client.user.setStatus("idle");
-    console.log("ElevenJay Now Online")
+    console.log("ElevenJay Now Online hahaha")
 });
 
 client.on("messageCreate", async message => {
